@@ -78,6 +78,6 @@ app.get('/genres', async (req, res) => {
   })
 
 
-  app.listen(PORT, HOST, () => {
-    console.log(`Listening on a port http://${HOST}:${PORT}`)
-})
+app.listen(PORT, HOST, () => {
+  console.log(`🚀 Сервер запущен: http://${HOST}:${PORT}`);
+});
